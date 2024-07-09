@@ -13,13 +13,16 @@ const AdminPage = async () => {
     <div className="mx-auto flex max-w-7xl flex-col space-y-14">
       <header className="admin-header">
         <Link href="/" className="cursor-pointer">
-          <Image
-            src="/assets/icons/logo-full.svg"
-            height={32}
-            width={162}
-            alt="logo"
-            className="h-8 w-fit"
-          />
+          <div className="my-auto flex space-x-2">
+            <Image
+              src="/hospital3.svg"
+              height={1000}
+              width={1000}
+              alt="patient"
+              className="mb-12 h-10 w-fit"
+            />
+            <span className="text-3xl font-bold"></span>
+          </div>
         </Link>
 
         <p className="text-16-semibold">Admin Dashboard</p>
